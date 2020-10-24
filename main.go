@@ -5,8 +5,8 @@ import (
 	"log"
 
 	pb "github.com/EwanValentine/shippy-user-service/proto/user"
+	_ "github.com/asim/go-plugins/registry/mdns"
 	"github.com/micro/go-micro"
-	_ "github.com/micro/go-plugins/registry/mdns"
 )
 
 func main() {
